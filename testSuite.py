@@ -3,5 +3,5 @@ client = TestRail('audible-testrail.aka.amazon.com', 'ayshwarb@amazon.com', 'Bal
 
 suiteId = '00000000' # Enter your Suite-Id here inside '####' 
 
-case = client.get_suite(suiteId)
-print(case)
+result = client.get_suite(suiteId)
+print(result)

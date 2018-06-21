@@ -3,5 +3,5 @@ client = TestRail('audible-testrail.aka.amazon.com', 'ayshwarb@amazon.com', 'Bal
 
 projectId = '00000000' # Enter your ProjectId here inside '####' 
 
-case = client.get_project(projectId)
-print(case)
+result = client.get_project(projectId)
+print(result)
